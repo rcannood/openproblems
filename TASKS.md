@@ -8,6 +8,7 @@ Table of Contents
   * [Multimodal data integration (e.g. combining CITE-seq with RNA-seq)](#multimodal-data-integration--eg-combining-cite-seq-with-rna-seq-)
   * [Differential abundance from experimental perturbations](#differential-abundance-from-experimental-perturbations)
   * [Data integration and batch normalization](#data-integration-and-batch-normalization)
+  * [Trajectory inference](#trajectory-inference)
   * [Further tasks](#further-tasks)
 
 
@@ -88,6 +89,13 @@ Methods that integrate batches typically have one of three different types of ou
 These subtasks collate methods that have the same data output type and metrics that evaluate this output. As corrected feature matrices can be turned into embeddings, which in turn can be processed into integrated graphs, methods overlap between the tasks. All methods are added to the graph subtask and imported into other subtasks from there.
 
 Metrics for this task can be divided into those that assess the removal of batch effects, and assessments of the conservation of biological variation. This can be a helpful distinction when devising new metrics. This task, including the subtask structure, was taken from a [benchmarking study of data integration methods](https://www.biorxiv.org/content/10.1101/2020.05.22.111161v2). This is a useful reference for more background reading on this task and the above concepts.
+
+### Trajectory inference
+Trajectory inference (TI) is a computational analysis used in single-cell transcriptomics to determine the pattern of a dynamic process experienced by cells and then arrange cells based on their progression through the process. A trajectory is a graph where the nodes represent noteworthy cellular states, and each cell is predicted to be progressing along transitions between the different states. Main applications of TI are identifying branch points, end states, predicting the topology of the dynamic process, or identifying genes whose expression varies gradually along the topology. 
+
+A comparison of 45 TI methods on 110 real and 229 synthetic datasets found that the different methods are very complementary when comparing different types of input datasets, and that performance of a method can be highly variable even in multiple runs on the same input dataset.
+
+See [openproblems-bio/opsca-viash/src/trajectory_inference](https://github.com/openproblems-bio/opsca-viash/tree/main/src/trajectory_inference) for a more detailed explanation of the task.
 
 ### Further tasks
 

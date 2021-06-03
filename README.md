@@ -30,8 +30,10 @@ Formalizing and benchmarking open problems in single-cell genomics.
 * Malte Luecken (@LuckyMD)
 * Angela Pisco (@aopisco)
 * Olga Botvinnik (@olgabot)
+* Robrecht Cannoodt (@rcannood)
 
 **Task authors** (_alphabetically_):
+* Robrecht Cannoodt (@rcannood) - [Trajectory Inference](https://github.com/openproblemsa/opsca-viash/tree/main/src/trajectory_inference)
 * Emma Dann (@emdann) - Differential Abundance 
 * Wes Lewis (@weslewis) - Differential Abundance and Data Denoising
 * Mohammad Lotfallahi (@M0hammadL) - Label projection task
