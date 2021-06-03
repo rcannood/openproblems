@@ -12,7 +12,7 @@
 
 ### Testing
 
-* [ ] This submission was written on a forked copy of SingleCellOpenProblems
+* [ ] This submission was written on a forked copy of openproblems-bio/openproblems
 * [ ] GitHub Actions "Run Benchmark" tests are passing on this base branch of this pull request (include link to passed test: )
 * [ ] If this pull request is not ready for review (including passing the "Run Benchmark" tests), I will open this PR as a draft (click on the down arrow next to the "Create Pull Request" button)
 
